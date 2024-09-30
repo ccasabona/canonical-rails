@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency 'actionview', '>= 4.1', '<= 7.3'
+  s.add_dependency 'actionview', '>= 4.1', '<= 9'
 
   s.add_development_dependency 'actionpack', '>= 4.1', '< 9'
   s.add_development_dependency 'appraisal'
